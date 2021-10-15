@@ -6,3 +6,7 @@ def getBuildComponentsBySublist(String sublist) {
 def catJson(){
     return sh(script: "cat ${buildComponents}" ,returnStdout: true)
 }
+
+def totest(){
+    echo "Im here baby"
+}

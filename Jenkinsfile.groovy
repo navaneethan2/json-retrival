@@ -1,6 +1,4 @@
-def totest(){
-    echo "Im here baby"
-}
+
 
 pipeline{
     agent any
@@ -13,8 +11,9 @@ pipeline{
         stage('debug'){
             steps{
                 script{
-                    totest()
                     builds = load 'builds.groovy'
+                    builds.totest()
+
                     builds.catJson()
                 }
             }
