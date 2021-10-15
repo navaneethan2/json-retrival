@@ -1,0 +1,165 @@
+{
+  "applications": {
+    "sublists": [
+      {
+        "name": "Travellink_Batch",
+        "repos": [
+          {
+            "repo_name": "cbo-authcode-recovery-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "cbo-charging-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "cbo-currency-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "cbo-denom-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "cbo-er-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "cbo-tl-mi-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "cbo-oe-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "cbo-order-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "cbo-os-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "cbo-rc-batch",
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "name": "Travellink_API",
+        "repos": [
+          {
+            "repo_name": "cbo-tl-auth",
+            "enabled": true
+          },
+          {
+            "repo_name": "cbo-tl-currency",
+            "enabled": true
+          },
+          {
+            "repo_name": "cbo-tl-holiday",
+            "enabled": true
+          },
+          {
+            "repo_name": "cbo-tl-order",
+            "enabled": true
+          },
+          {
+            "repo_name": "cbo-travellink-cwa",
+            "enabled": true
+          },
+          {
+            "repo_name": "cbo-travellink-api",
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "name": "CBO_Batch",
+        "repos": [
+          {
+            "repo_name": "acl-converter-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "activate-user-migration-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "amt-migration-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "backout-user-migration-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "commercial-mandate-broadcast-msg-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "create-user-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "create-user-migration-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "customer-card-accounts-management-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "delete-product-registration-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "fulfill-security-device-orders-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "iri-updation-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "maintain-customer-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "maintain-user-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "mi-reporting-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "security-device-activation-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "security-device-management-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "send-credential-alerts-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "telephony-id-and-v-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "update-currency-accounts-batch",
+            "enabled": true
+          },
+          {
+            "repo_name": "update-user-account-expiry-batch",
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+}

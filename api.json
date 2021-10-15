@@ -1,0 +1,7 @@
+{
+  "applications":[
+    {"application": "AlertsAPI","config_job": "config/Alert","configPath": "/data/config/AlertsAPI/config"},
+    {"application": "CustomerAPI","config_job": "config/Customer","configPath": "/data/config/CustomerAPI/config"},
+    {"application": "NotesAPI","config_job": "config/Notes","configPath": "/data/config/NotesAPI/config"}
+  ]
+}
