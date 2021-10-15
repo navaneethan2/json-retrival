@@ -2,9 +2,12 @@
 
 pipeline{
     agent any
+    parameters{
+        choice(name: 'apicomp',choices: ['AlertsAPI','CommonAPI'])
+    }
 
     environment {
-        buildComponents = 'build-components.json'
+        apiComponents = 'api.json'
     }
 
     stages{
@@ -13,8 +16,8 @@ pipeline{
                 script{
                     builds = load 'builds.groovy'
                     builds.totest()
-
-                    builds.catJson()
+                    def api = "${params.apicomp}"
+                    def configPath = builds.getconfigPath(api)
                 }
             }
         }

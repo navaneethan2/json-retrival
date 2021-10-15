@@ -1,7 +1,14 @@
 {
-  "applications":[
-    {"application": "AlertsAPI","config_job": "config/Alert","configPath": "/data/config/AlertsAPI/config"},
-    {"application": "CustomerAPI","config_job": "config/Customer","configPath": "/data/config/CustomerAPI/config"},
-    {"application": "NotesAPI","config_job": "config/Notes","configPath": "/data/config/NotesAPI/config"}
-  ]
+  "api": {
+    "AlertsAPI": {
+      "configJob": "/dirAlert/dir2",
+      "configPath": "Service Layer/dirAlert/dir2",
+      "baseDir": "/path/to/the/base dir/dirAlert"
+    },
+    "CommonAPI": {
+      "configJob": "/dirCommon/dir2",
+      "configPath": "Service Layer/dirCommon/dir2",
+      "baseDir": "/path/to/the/base dir/dirCommon"
+    }
+  }
 }
