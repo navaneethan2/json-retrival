@@ -10,3 +10,6 @@ def catJson(){
 def totest(){
     echo "Im here baby"
 }
+
+
+return this;
